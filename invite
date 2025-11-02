@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B. Viruthika Varshini 💍 R. Muralidharan - Wedding Invitation Reminder</title>
+<!-- Added meta tags for SEO and social sharing -->
+<meta name="description" content="Wedding invitation for B. Viruthika Varshini and R. Muralidharan. Reception on November 09, 2025, and marriage on November 10, 2025.">
+<meta property="og:title" content="B. Viruthika Varshini 💍 R. Muralidharan - Wedding Invitation Reminder">
+<meta property="og:description" content="Join us for the wedding of B. Viruthika Varshini and R. Muralidharan. Reception: Nov 9, 2025. Marriage: Nov 10, 2025.">
+<meta property="og:image" content="https://example.com/wedding-image.jpg"> <!-- Replace with a real image URL if available -->
+<meta property="og:url" content="https://yourwebsite.com"> <!-- Replace with your actual URL -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Preconnect & Font Loading (fixed) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fff4e3, #ffebd2);
+  font-family: 'Playfair Display', serif;
+  color: #5a2e0a;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #8b2f00, #e0a04b);
+  color: #fff;
+  padding: 25px 10px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  position: relative;
+  animation: fadeIn 1.2s ease-in;
+}
+header::before, header::after {
+  content: "🌸";
+  position: absolute;
+  top: 10px;
+  font-size: 1.2em;
+}
+header::before { left: 20px; }
+header::after { right: 20px; }
+
+/* Main container */
+.container {
+  background: #fffaf3;
+  margin: 40px auto;
+  max-width: 750px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  border: 3px solid #d9a55a;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 1.5s ease-out;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to bottom, #fffaf3, #ffebd2);
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  opacity: 0.9;
+}
+.container::after {
+  content: "";
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0a/Indian_wedding_garland.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+/* Animations */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes glow { from { text-shadow: 0 0 8px #ffce73; } to { text-shadow: 0 0 15px #f1a23a; } }
+
+/* Text */
+h1 {
+  font-family: 'Great+Vibes', cursive, serif;
+  font-size: 2.8em;
+  color: #8b2f00;
+  margin-bottom: 10px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+.invite {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  color: #603a16;
+  line-height: 1.7;
+  padding-top: 130px; /* Added to push text below garland overlay */
+}
+
+/* Event boxes */
+.event {
+  background: #fff3de;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #e3a857;
+  box-shadow: inset 0 0 10px #f9e0b0;
+  animation: fadeInUp 1.2s ease-in;
+}
+.event h2 {
+  color: #8b2f00;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.countdown {
+  font-weight: 600;
+  color: #b45f06;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+/* Form */
+input {
+  padding: 12px;
+  width: 80%;
+  border: 1px solid #d2b48c;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  outline: none;
+  transition: 0.3s;
+  font-family: 'Playfair Display', serif;
+}
+input:focus {
+  border-color: #b45f06;
+  box-shadow: 0 0 5px #e3a857;
+}
+button {
+  background: linear-gradient(to right, #8b2f00, #e3a857);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e3a857;
+}
+.thankyou {
+  display: none;
+  color: #388e3c;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.error {
+  display: none;
+  color: #d32f2f;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.guestList {
+  display: none;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #603a16;
+}
+
+/* Location */
+.location {
+  margin-top: 30px;
+}
+.location a {
+  background: linear-gradient(to right, #8b2f00, #e3a857);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.location a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e3a857;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 0.95em;
+  color: #6f4e37;
+  background: #fff0d9;
+  border-top: 3px solid #e3a857;
+  font-weight: 600;
+}
+
+/* Music Button */
+#musicBtn {
+  background: linear-gradient(to right, #b45f06, #e3a857);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#musicBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e3a857;
+}
+</style>
+</head>
+<body>
+
+<header aria-label="Wedding Invitation Reminder">Wedding Invitation Reminder</header>
+
+<div class="container" role="main">
+  <p class="invite">
+    <strong>Mr. D. Bharani Kumar </strong> &
+    <strong> Mrs. B. Pramila<br>(Sri Dharshini Foundations, Chennai)</strong><br>
+    Cordially invite your esteemed presence and blessings on the auspicious occasion of the marriage of their beloved daughter <br>
+    <strong size=5>B. Viruthika Varshini</strong> (B.Tech)<br>
+    with<br>
+    <strong size=5>R. Muralidharan</strong> (B.C.A)<br>
+    S/o Mr. P. Ramesh Kumar & Mrs. R. Sudha
+  </p>
+
+  <div class="event">
+    <h2>💫 Reception 💫</h2>
+    <p><strong>Date:</strong> November 09, 2025 (Sunday)<br>
+    <strong>Time:</strong> 6:30 P.M. onwards</p>
+    <div class="countdown" id="receptionCountdown">Loading...</div>
+  </div>
+
+  <div class="event">
+    <h2>💫 Marriage 💫</h2>
+    <p><strong>Date:</strong> November 10, 2025 (Monday)<br>
+    <strong>Time:</strong> 5:30 A.M. – 7:00 A.M.</p>
+    <p><strong>Venue:</strong><br>
+    Sri Seetha Lakshmi Marriage Hall (A/C)<br>
+    305 & 306, Poonamallee High Road,<br>
+    Maduravoyal, Chennai – 600095</p>
+    <div class="countdown" id="marriageCountdown">Loading...</div>
+  </div>
+
+  <form id="attendanceForm" aria-label="RSVP Form">
+    <input type="text" id="guestName" placeholder="Enter your name" required aria-describedby="nameHelp"><br>
+    <span id="nameHelp" style="display:none;">Enter your full name to confirm attendance.</span>
+    <button type="submit">I'll Attend 💐</button>
+    <button type="button" id="viewGuestsBtn">View Guests</button>
+    <button type="button" id="resetBtn">Reset</button>
+  </form>
+  <div class="thankyou" id="thankyouMessage">Thank you for confirming! See you at the wedding 💖</div>
+  <div class="error" id="errorMessage">Please enter a valid name (at least 2 characters).</div>
+  <div class="guestList" id="guestList">Confirmed Guests: <span id="guestNames">None yet.</span></div>
+
+  <div class="location">
+    <a href="https://maps.app.goo.gl/2Zp7FpzkZQkTu7hA8" target="_blank" rel="noopener noreferrer">📍 View Location</a>
+  </div>
+
+  <button id="musicBtn">🎵 Play / Pause Music</button>
+  <audio id="bgMusic" src="https://www.soundjay.com/misc/sounds/wedding-bells.mp3" preload="auto" loop></audio> <!-- New reliable public MP3 -->
+</div>
+
+<footer>
+  With Best Compliments from<br>
+  <strong>B. Priyadharshini BCA</strong>
+</footer>
+
+<script>
+function countdown(targetDate, elementId) {
+  const date = new Date(targetDate).getTime();
+  const el = document.getElementById(elementId);
+  if (!el) return; // Added safety check
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const dist = date - now;
+    if (dist < 0) {
+      clearInterval(timer);
+      el.innerHTML = "💐 The Celebration is Happening Today!";
+      return;
+    }
+    const days = Math.floor(dist / (1000*60*60*24));
+    const hrs = Math.floor((dist % (1000*60*60*24)) / (1000*60*60));
+    const mins = Math.floor((dist % (1000*60*60)) / (1000*60));
+    const secs = Math.floor((dist % (1000*60)) / 1000);
+    el.innerHTML = `${days} Days ${hrs} Hours ${mins} Min ${secs} Sec`;
+  }, 1000);
+}
+countdown("Nov 9, 2025 18:30:00", "receptionCountdown");
+countdown("Nov 10, 2025 05:30:00", "marriageCountdown");
+
+// Attendance confirmation with improved validation and features
+let guests = [];
+try {
+  const stored = localStorage.getItem("weddingGuests");
+  if (stored) guests = JSON.parse(stored);
+} catch (error) {
+  console.warn("localStorage not available:", error);
+}
+
+function updateGuestList() {
+  document.getElementById("guestNames").innerText = guests.length ? guests.join(", ") : "None yet.";
+}
+
+document.getElementById("attendanceForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const name = document.getElementById("guestName").value.trim();
+  const errorEl = document.getElementById("errorMessage");
+  const thankEl = document.getElementById("thankyouMessage");
+  if (name.length < 2) {
+    errorEl.style.display = "block";
+    thankEl.style.display = "none";
+    return;
+  }
+  errorEl.style.display = "none";
+  if (!guests.includes(name)) guests.push(name);
+  try {
+    localStorage.setItem("weddingGuests", JSON.stringify(guests));
+  } catch (error) {
+    console.warn("localStorage not available:", error);
+  }
+  document.getElementById("attendanceForm").style.display = "none";
+  thankEl.style.display = "block";
+  updateGuestList();
+});
+
+document.getElementById("viewGuestsBtn").addEventListener("click", () => {
+  const listEl = document.getElementById("guestList");
+  listEl.style.display = listEl.style.display === "none" ? "block" : "none";
+  updateGuestList();
+});
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  guests = [];
+  try {
+    localStorage.removeItem("weddingGuests");
+  } catch (error) {
+    console.warn("localStorage not available:", error);
+  }
+  document.getElementById("attendanceForm").style.display = "block";
+  document.getElementById("thankyouMessage").style.display = "none";
+  document.getElementById("errorMessage").style.display = "none";
+  document.getElementById("guestList").style.display = "none";
+  updateGuestList();
+});
+
+if (guests.length) {
+  document.getElementById("attendanceForm").style.display = "none";
+  document.getElementById("thankyouMessage").style.display = "block";
+}
+
+const music = document.getElementById('bgMusic');
+const btn = document.getElementById('musicBtn');
+if (music) {
+  music.play().catch(() => { console.log("Autoplay blocked."); });
+  btn.addEventListener('click', () => {
+    if (music.paused) {
+      music.play();
+      btn.textContent = '⏸ Pause Music';
+    } else {
+      music.pause();
+      btn.textContent = '🎵 Play Music';
+    }
+  });
+}
+</script>
+</body>
+</html>
